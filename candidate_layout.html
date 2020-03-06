@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Candidate Salary Layout</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="candidate.css">
+</head>
+
+<body>
+    <h2 class="header"></h2>
+    <div class="candidate-sal-layout">
+
+        <!-- Desired Salary section starts -->
+        <div class="desired-sal">
+            <label for="salary" class="ques">What is your desired salary?</label>
+            <select id="salary">
+                <option value="USD">USD</option>
+            </select>
+            <span class="salary-value">50,000,000</span>
+
+        </div>
+        <!-- Desired Salary section ends -->
+
+        <!-- Job Search section starts -->
+        <div class="job-search">
+            <p class="ques">Where are you in your job search?</p>
+            <div class="job-search-options">
+                <div class="job-search-option1">Actively Interviewing</div>
+                <div class="job-search-option2">Passively looking for the right opportunity</div>
+                <div class="job-search-option3">Haven't interviewed yet, but ready to start</div>
+                <div class="job-search-option4">Not looking for a new role</div>
+            </div>
+
+        </div>
+
+        <!-- Job Search section ends -->
+
+        <!-- Role section starts -->
+
+        <div class="role-search">
+            <p class="ques">Are you looking for an individual contributor or manager role?</p>
+            <div class="role-search-options">
+                <div class="role-search-option1">Actively Interviewing</div>
+                <div class="role-search-option2">Passively looking for the right opportunity</div>
+            </div>
+        </div>
+
+        <!-- Role section ends -->
+
+        <!-- Company Size section starts -->
+        <div class="company-size">
+            <p class="ques">What is the ideal size of your Company?</p>
+            <div class="company-size-options">
+                <div class="company-size-option1">
+                    <p>Tiny</p>
+                    <p>Less than 50 people</p>
+                </div>
+                <div class="company-size-option2">
+                    <p>Small</p>
+                    <p>50-200 people</p>
+                </div>
+                <div class="company-size-option3">
+                    <p>Medium</p>
+                    <p>200-1000 people</p>
+                </div>
+                <div class="company-size-option4">
+                    <p>Large</p>
+                    <p>More than 1000 people</p>
+                </div>
+            </div>
+        </div>
+        <!-- Company Size section ends -->
+
+        <!-- Preferred Industries section starts -->
+
+        <div class="preferred-industries">
+            <p class="ques">What industries are you interested in working with? Select as many you want.</p>
+            <div class="industries">
+                <div class="search-industries">
+                    <input class="search-industries-input" type="text" placeholder="Search industries" /><span><i
+                            class="fa fa-search"></i></span>
+                </div>
+                <div class="industry-options">
+                    <div class="industries-options-row-1">
+                        <div class="options-advertising">Advertising</div>
+                        <div class="options-aerospace">Aerospace</div>
+                        <div class="options-agriculture">Agriculture</div>
+                        <div class="options-analytics">Analytics</div>
+                        <div class="options-biotech">Biotech</div>
+                    </div>
+                    <div class="industries-options-row-2">
+                        <div class="options-advertising">Advertising</div>
+                        <div class="options-aerospace">Aerospace</div>
+                        <div class="options-agriculture">Agriculture</div>
+                        <div class="options-analytics">Analytics</div>
+                        <div class="options-biotech">Biotech</div>
+                    </div>
+                </div>
+                <button class="show-industries-btn">Show All Industries</button>
+            </div>
+        </div>
+
+        <!-- Preferred Industries section ends -->
+
+        <div class="footer">
+            <button class="previous-btn">PREVIOUS</button>
+            <button class="next-btn">NEXT</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

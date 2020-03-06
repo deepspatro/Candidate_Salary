@@ -1,0 +1,138 @@
+.candidate-sal-layout{
+    padding: 70px;
+    padding-top: 40px;
+}
+
+h2{
+ text-align: center;
+ background-color: 	#282828;
+ margin-top: 0px;
+ height: 50px;
+}
+
+#salary{
+    margin-left: 70px;
+    margin-right: 20px;
+    height: 40px;
+    width: 70px;
+    color: blue;
+    border: 1px solid blue;
+    padding-left: 5px;
+}
+
+.salary-value{
+color: blue;
+font-size: 20px;
+padding-bottom: 10px;
+border-bottom: 1px solid blue;
+}
+
+.ques{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+
+.job-search-options, .role-search-options, .company-size-options{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.job-search-option1 , .job-search-option2 , .job-search-option3, .job-search-option4, .role-search-option1, .role-search-option2,
+.company-size-option1, .company-size-option2, .company-size-option3, .company-size-option4
+{
+    border: 2px solid blue;
+    background-color: rgb(230, 231, 240);
+    border-radius: 8px;
+    width: 220px;
+    height: 80px;
+    padding: 25px;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.role-search-option1, .role-search-option2{
+    width: 600px;
+}
+
+.company-size-option1, .company-size-option2, .company-size-option3, .company-size-option4 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.company-size-options  p {
+    margin: 0px;
+}
+
+.fa{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industries{
+    display: flex;
+    flex-direction: column;
+}
+
+.industries-options-row-1, .industries-options-row-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-advertising, .options-aerospace, .options-agriculture, .options-analytics, .options-biotech{
+    border-radius: 8px;
+    border: 2px solid blue;
+    width: 220px;
+    height: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.search-industries{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-industries-input{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.show-industries-btn{
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-btn, .next-btn{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.previous-btn{
+    background-color: rgb(230, 231, 240);
+    color: black;
+}
